@@ -51,10 +51,12 @@ btn.addEventListener('click', function() {
 
 
 /* STEP 3: Skip a loop interation with continue */
+
 const numberList = document.querySelector('#numberList');
 let num = 50;
 for (let i = 1; i <= num; i ++) {
 	let sqRoot = Math.sqrt(i);
+
 	/* STEP 3a: Build an IF statement that checks whether the square root of the number is NOT an integer */
 	
 	if (Math.floor(sqRoot) !== sqRoot) {
@@ -81,6 +83,7 @@ console.log(outputWhile);
 
 let k = 0;
 var outputDo = '';
+
 /* STEP 4b: DO/WHILE loop - grab the above IF/ELSE and the 'i++', then create the very same output with DO/WHILE (uncomment the above 'i = 0', first) */
 
 do {
